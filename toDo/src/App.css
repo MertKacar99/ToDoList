@@ -1,0 +1,86 @@
+
+.App{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    
+}
+.TaskCreate-Pdiv{
+    width: 450px;
+}
+.TaskUpdate-Pdiv{
+    width: 100%;
+}
+
+.Task-Create-Form{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    
+}
+.TaskCreate-Label{
+    margin: 10px 0px;
+    font-size:large;
+    
+}
+
+.Task-input{
+     padding: 10px;
+     border: 1px solid black;
+     border-radius: 10px;
+}
+.TextCreate-Button{
+    margin: 10px 0px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.update-button{
+    background-color: blueviolet;
+}
+.task-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+     
+}
+.task-show{
+    border: 1px solid green;
+    border-radius: 30px;
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.task-title{
+    margin-bottom: 5px;
+}
+.taskShow-Delete{
+    padding: 5px;
+    background-color: red;
+    border:none;
+    border-radius: 10px;
+    width: 60px;
+    font-size: 15px;
+    color: white;
+    margin-right: 10px;
+}
+.taskShow-Update{
+    padding: 5px;
+    background-color: blue;
+    border:none;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 15px;
+    color: white;
+    margin-right: 10px;
+}
