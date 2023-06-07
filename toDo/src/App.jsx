@@ -39,7 +39,7 @@ function App() {
   };
   return (
      <div className='App'>
-        <TaskCreate onClick={createTask}></TaskCreate>
+        <TaskCreate onClick={createTask} onChange ></TaskCreate>
         <h1>Görevler</h1>
         <TaskList tasks={tasks}  onDelete={deleteTaskById} onUpdate={editTaskById} ></TaskList>
      </div>

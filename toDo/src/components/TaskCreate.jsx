@@ -9,7 +9,7 @@ function TaskCreate({onClick,task,taskFormUpdate ,onUpdate}) {
             // console.log(title,taskDesc);
             
             
-            //?  Title ve Desc propslarını  belleğe katdetme/Set etme  aksiyonu
+            //?  Title ve Desc propslarını  belleğe kaydetme/Set etme  aksiyonu
             const  handleTitleChange = (event) =>{
                 setTitle(event.target.value);
             };
@@ -32,7 +32,9 @@ function TaskCreate({onClick,task,taskFormUpdate ,onUpdate}) {
             }
              
 return (
-            <div> {taskFormUpdate ?   //! True ise.
+            <div> 
+                {''}
+                {taskFormUpdate ?   //! True ise.
 
 
 
@@ -48,7 +50,7 @@ return (
             </div>
             
             
-            :  //? değilse  (Fale ise )
+            :  //? değilse  (False ise )
             
             
             <div className="TaskCreate-Pdiv" >

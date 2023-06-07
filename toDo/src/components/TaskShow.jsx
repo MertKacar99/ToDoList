@@ -7,7 +7,7 @@ const [showEdit, setShowEdit] = useState(false)
         onDelete(task.id);
     };
     const handleEditClick = ()=>{
-        setShowEdit(!showEdit);
+        setShowEdit(!showEdit); //! True Yaptık
     };
     const handleSubmit = (id,updatedTitle, updatedTaskDesc )=>{
         setShowEdit(false);
@@ -20,7 +20,7 @@ const [showEdit, setShowEdit] = useState(false)
             showEdit ? <TaskCreate task={task} taskFormUpdate={true} onUpdate={handleSubmit}></TaskCreate>
             
             
-            : 
+         : //? True değilse...
 
                 <div>
                 <h3 className="task-title">Göreviniz</h3>
